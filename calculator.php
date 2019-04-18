@@ -5,6 +5,10 @@
 	
 	if($operador == "+"){
 		$solucion = $operando1 + $operando2;
+		//funcion multiplicar hecho por Andia
+	}elseif ($operador == "*") {
+		$solucion = $operando1 * $operando2;
+		# code...
 	}
 	echo "La solución es: ".$solucion;
 ?>
