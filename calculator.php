@@ -5,9 +5,12 @@
 	
 	if($operador == "+"){
 		$solucion = $operando1 + $operando2;
+
 		//funcion multiplicar hecho por Andia
+
 	}elseif ($operador == "*") {
 		$solucion = $operando1 * $operando2;
+		//hecho por Andia Bladeon
 		# code...
 	}
 	echo "La solución es: ".$solucion;
