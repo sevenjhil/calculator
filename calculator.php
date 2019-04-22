@@ -23,4 +23,5 @@
 		
 	}
 	echo "La solución es: ".$solucion;
+	echo "hola";
 ?>
