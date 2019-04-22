@@ -9,18 +9,13 @@
 		//funcion multiplicar hecho por Andia
 
 	}elseif ($operador == "*") {
-		$solucion = $operando1 * $operando2;
 		//hecho por Andia Baldeon
 		# code...
-
-
+		$solucion = $operando1 * $operando2;
 	}
 	if ($operador == "-") {
+		# code...		
 		$solucion = $operando1 - $operando2;
-		//hecho por Andia Baldeon
-		# code...
-
-		
 	}
 	echo "La solución es: ".$solucion;
 ?>
