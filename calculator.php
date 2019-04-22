@@ -19,7 +19,6 @@
 		$solucion = $operando1 - $operando2;
 		//hecho por Andia Baldeon
 		# code...
-
 		
 	}
 	echo "La solución es: ".$solucion;
