@@ -1,24 +1,16 @@
-<?php
-	$operando1 = $_GET['operando1'];
-	$operando2 = $_GET['operando2'];
-	$operador = $_GET['operador'];
-	
-	if($operador == "+"){
-		$solucion = $operando1 + $operando2;
+<html>
+	<head>
+		<title>Sumar</title>
+	</head>
+	<body>
+		<?php
+			$valor1 = $_POST['N1'];
+			$valor2 = $_POST['N2'];
+			$valor3 = $_POST['N3'];
 
-		//funcion multiplicar hecho por Andia
+			$suma = $valor1 + $valor2 + $valor3;
 
-	}elseif ($operador == "*") {
-		//hecho por Andia Baldeon
-		# code...
-		$solucion = $operando1 * $operando2;
-	}
-	if ($operador == "-") {
-		# code...		
-		$solucion = $operando1 - $operando2;
-	}
-	echo "La solución es: ".$solucion;
-?>
-
-//kkkk
-hjfhfj
+			echo "$valor1 + $valor2 + $valor3 = $suma";
+		?>
+	</body>
+</html>
