@@ -1,16 +1,16 @@
-<?php
-	$operando1 = $_POST['operando1'];
-	$operando2 = $_POST['operando2'];
-	$operador = $_POST['operador'];
-	
-	if($operador == "+"){
-		$solucion = $operando1 + $operando2;
-	}elseif ($operador == "*") {
-		$solucion = $operando1 * $operando2;
-	}
-	elseif ($operador == "-") {
-		$solucion = $operando1 - $operando2;
-	}
+<html>
+	<head>
+		<title>Sumar</title>
+	</head>
+	<body>
+		<?php
+			$valor1 = $_POST['N1'];
+			$valor2 = $_POST['N2'];
+			$valor3 = $_POST['N3'];
 
-	echo "La solución es: ".$solucion;
-?>
+			$suma = $valor1 + $valor2 + $valor3;
+
+			echo "$valor1 + $valor2 + $valor3 = $suma";
+		?>
+	</body>
+</html>
