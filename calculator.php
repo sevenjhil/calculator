@@ -5,7 +5,7 @@
 	
 	if($operador == "+"){
 		$solucion = $operando1 + $operando2;
-
+//K9KTrzV7Bwtw7tAvxAxG
 		//funcion multiplicar hecho por Andia
 
 	}elseif ($operador == "*") {
